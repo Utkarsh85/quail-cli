@@ -19,6 +19,10 @@ module.exports=function (folderName) {
 		{
 			name:'rateLimit.js',
 			content:"module.exports= {routes:{}}"
+		},
+		{
+			name:'token.js',
+			content:"module.exports= {secret:'my secret',algorithm:'HS512',validity:14}"
 		}
 	];
 
